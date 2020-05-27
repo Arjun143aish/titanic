@@ -30,7 +30,7 @@ def predict():
     else:
         survival_status = "Passenger Survived"
 
-    return render_template('index.html', prediction_text= 'Survival Chances {}'.format(survival_status))
+    return render_template('index.html', prediction_text= 'Survival Chances:  {}'.format(survival_status))
 
 #@app.route('/predict_api',methods=['POST'])
 #def predict_api():
